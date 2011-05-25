@@ -1,0 +1,42 @@
+{
+   "name": "first_last_agg",
+   "abstract": "Provides first() and last() aggregate functions.",
+   "version": "0.1.0",
+   "maintainer": [
+      "Jan Urbański <wulczer@wulczer.org>"
+   ],
+   "release_status": "testing",
+   "license": "postgresql",
+   "prereqs": {
+       "build": {
+           "PostgreSQL": "9.0.0"
+        }
+   },
+   "provides": {
+      "first_last_agg": {
+         "file": "sql/first_last_agg.sql",
+         "docfile": "doc/first_last_agg.md",
+         "version": "0.1.0"
+      }
+   },
+   "resources": {
+      "bugtracker": {
+         "web": "http://github.com/wulczer/first_last_agg/issues/"
+      },
+      "repository": {
+        "url":  "git://github.com/wulczer/first_last_agg.git",
+        "web":  "http://github.com/wulczer/first_last_agg/",
+        "type": "git"
+      }
+   },
+   "generated_by": "Jan Urbański",
+   "meta-spec": {
+      "version": "1.0.0",
+      "url": "http://pgxn.org/meta/spec.txt"
+   },
+   "tags": [
+      "first aggregate",
+      "last aggregate",
+      "aggregate function"
+   ]
+}
