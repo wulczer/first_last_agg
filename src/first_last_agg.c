@@ -24,11 +24,7 @@ first_sfunc(PG_FUNCTION_ARGS)
 {
 	Datum	element;
 
-	/* if it's NULL, return NULL */
-	if (PG_ARGISNULL(0))
-		PG_RETURN_NULL();
-
-	/* otherwise simply return the first argument */
+	/* simply return the first argument */
 	element = PG_GETARG_DATUM(0);
 	PG_RETURN_DATUM(element);
 }
@@ -41,11 +37,7 @@ last_sfunc(PG_FUNCTION_ARGS)
 {
 	Datum	element;
 
-	/* if it's NULL, return NULL */
-	if (PG_ARGISNULL(1))
-		PG_RETURN_NULL();
-
-	/* otherwise simply return the second argument */
+	/* simply return the second argument */
 	element = PG_GETARG_DATUM(1);
 	PG_RETURN_DATUM(element);
 }
