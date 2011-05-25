@@ -7,8 +7,7 @@ the first value of the group.
 
 Since by default the ordering inside groups created by a `GROUP BY` expression
 is not defined, it is advisable to use an `ORDER BY` clause inside the
-aggregate expression (see the [aggregate function syntax](http://www.postgresql.org/docs/current/static/sql-expressions.html#SYNTAX-AGGREGATES))
-"")).
+aggregate expression (see the [aggregate function syntax](http://www.postgresql.org/docs/current/static/sql-expressions.html#SYNTAX-AGGREGATES)).
 This feature has been added in PostgreSQL 9.0.
 
 This extension is intended to replace the corresponding
