@@ -1,7 +1,7 @@
 {
    "name": "first_last_agg",
    "abstract": "Provides first() and last() aggregate functions.",
-   "version": "0.1.1",
+   "version": "0.1.2",
    "maintainer": [
       "Jan Urbański <wulczer@wulczer.org>"
    ],
@@ -9,8 +9,10 @@
    "license": "postgresql",
    "prereqs": {
        "build": {
-           "PostgreSQL": "9.0.0"
-        }
+           "requires": {
+               "PostgreSQL": "9.0.0"
+           }
+       }
    },
    "provides": {
       "first_last_agg": {
