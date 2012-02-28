@@ -34,6 +34,5 @@ Author
 [Jan Urbański](http://wulczer.org/), based on code from the
 [PostgreSQL wiki](http://wiki.postgresql.org/), specifically on the
 SQL definitions of
-[first](http://wiki.postgresql.org/wiki/First_%28aggregate%29) and
-[last](http://wiki.postgresql.org/wiki/Last_%28aggregate%29) taken
-from there.
+[first and last](http://wiki.postgresql.org/wiki/First/last_%28aggregate%29)
+taken from there.

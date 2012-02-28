@@ -11,6 +11,5 @@ aggregate expression (see the [aggregate function syntax](http://www.postgresql.
 This feature has been added in PostgreSQL 9.0.
 
 This extension is intended to replace the corresponding
-[first](http://wiki.postgresql.org/wiki/Last_%28aggregate%29) and
-[last](http://wiki.postgresql.org/wiki/First_%28aggregate%29) aggregates from
-the PostgreSQL wiki.
+[first and last](http://wiki.postgresql.org/wiki/First/last_%28aggregate%29)
+aggregates from the PostgreSQL wiki.
