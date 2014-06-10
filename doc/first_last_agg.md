@@ -1,4 +1,4 @@
-first-last-agg 0.1.1
+first-last-agg 0.1.2
 ====================
 
 Synopsis

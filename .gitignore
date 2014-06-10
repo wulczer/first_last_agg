@@ -1,5 +1,6 @@
 .deps/
 sql/first_last_agg--0.1.0.sql
 sql/first_last_agg--0.1.1.sql
+sql/first_last_agg--0.1.2.sql
 src/first_last_agg.o
 src/first_last_agg.so
