@@ -5,7 +5,7 @@
    "maintainer": [
       "Jan Urbański <wulczer@wulczer.org>"
    ],
-   "release_status": "testing",
+   "release_status": "stable",
    "license": "postgresql",
    "prereqs": {
        "build": {
