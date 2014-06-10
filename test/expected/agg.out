@@ -60,8 +60,9 @@ SELECT akey, first(val1) AS first, last(val1) AS last FROM agg_test WHERE akey I
     5 |     5 |    5
 (2 rows)
 
-SELECT akey, first(val1) AS first, last(val1) AS last FROM agg_test WHERE akey = 100;
+SELECT akey, first(val1) AS first, last(val1) AS last FROM agg_test WHERE akey = 100 GROUP BY akey;
  akey | first | last 
 ------+-------+------
-      |       |     
+(0 rows)
+
 ROLLBACK;

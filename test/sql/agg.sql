@@ -23,6 +23,6 @@ SELECT akey, first(val1 ORDER BY val2 NULLS LAST) AS first, last(val1 ORDER BY v
 SELECT akey, first(val1 ORDER BY val2 ASC) AS first, last(val1 ORDER BY val2 DESC) AS last FROM agg_test GROUP BY akey ORDER BY akey;
 SELECT akey, first(val1 ORDER BY val2 ASC NULLS FIRST) AS first, last(val1 ORDER BY val2 NULLS FIRST) AS last FROM agg_test GROUP BY akey ORDER BY akey;
 SELECT akey, first(val1) AS first, last(val1) AS last FROM agg_test WHERE akey IN (3, 5) GROUP BY akey ORDER BY akey;
-SELECT akey, first(val1) AS first, last(val1) AS last FROM agg_test WHERE akey = 100;
+SELECT akey, first(val1) AS first, last(val1) AS last FROM agg_test WHERE akey = 100 GROUP BY akey;
 
 ROLLBACK;
