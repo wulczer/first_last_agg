@@ -1,6 +1,6 @@
 BEGIN;
 SET client_min_messages TO 'WARNING';
-\set ECHO 0
+\set ECHO none
 RESET client_min_messages;
 CREATE TEMPORARY TABLE agg_test (
     akey integer,
