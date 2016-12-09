@@ -1,6 +1,6 @@
 BEGIN;
 SET client_min_messages TO 'WARNING';
-\set ECHO 0
+\set ECHO none
 \i sql/first_last_agg.sql
 \set ECHO all
 RESET client_min_messages;
