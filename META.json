@@ -11,8 +11,8 @@
       "first_last_agg": {
          "file": "sql/first_last_agg.sql",
          "docfile": "doc/first_last_agg.md",
-         "version": "0.1.5"
-         "abstract": "Provides first() and last() aggregate functions.",
+         "version": "0.1.5",
+         "abstract": "Provides first() and last() aggregate functions."
       }
    },
    "meta-spec": {
