@@ -1,3 +1,7 @@
+[![CI](https://github.com/adjust/first_last_agg/actions/workflows/main.yml/badge.svg)](https://github.com/adjust/first_last_agg/actions/workflows/main.yml)
+
+[![TEST](https://github.com/adjust/first_last_agg/actions/workflows/test.yml/badge.svg)](https://github.com/adjust/first_last_agg/actions/workflows/test.yml)
+
 first_last_agg
 --------------
 
